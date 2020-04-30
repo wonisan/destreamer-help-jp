@@ -17,7 +17,7 @@ Win/Mac/Linux で動作します。
 Windows
 -  `destreamer.cmd` (コマンドプロンプト)か、  
 `destreamer.ps1`(PowerShell) で実行してください。  
-改行している場合、エスケープ文字( **\** )も必要です。
+改行している場合、エスケープ文字も必要です。
 - MinGWや、MSYS、Cygwinでは動作しないことがあります。  
 (一部ユーザーからは、出来ないとの報告が上がっています。)
 - WSLでは動作しません。 詳しくは、公式[README.md][README.md]に記載してあります。
@@ -92,7 +92,7 @@ $ ./destreamer.sh -i "https://web.microsoftstream.com/video/VIDEO-1" -o /Users/h
 $ ./destreamer.sh -i "https://web.microsoftstream.com/video/VIDEO-1" \
                      "https://web.microsoftstream.com/video/VIDEO-2"
 ```
-- エスケープ文字(\)も必ず入力してください。
+- エスケープ文字も必ず入力してください。
 
 **txtファイルからURLを入力するなら…**
 ```sh
@@ -100,7 +100,7 @@ $ ./destreamer.sh -f list.txt
 ```
 
 - `.txt`のURLリンクは一行につき1リンクのみです。
-- エスケープ文字( **\** )を忘れないで下さい。
+- エスケープ文字を忘れないで下さい。
 
 **---Trips---**
 - 念のため、`--username` は任意です。  
